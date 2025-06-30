@@ -1,23 +1,16 @@
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, redirect, url_for
 import main
 
 app = Flask(__name__)
 
-@app.route('/generate_flashcards', methods=['POST'])
-def generate_flashcards():
-    # Get the text input and number of flashcards from the request
-    text = request.json['text']
-    num_flashcards = request.json['num_flashcards_limit']
-
-    # Call your machine learning model to generate the flashcards
-    flashcards = main.generate_flashcards(text, num_flashcards)
-
-    # Return the flashcards as a JSON response
-    response = {
-        'flashcards': flashcards
-    }
-    return jsonify(response)
+@app.route('/', methods=['GET', 'POST']) 
+def index():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password']
+        
+        return "✅ Login berhasil dengan email: " + email
+    return render_template('login.html')  
 
 if __name__ == '__main__':
-    app.run()
-    
+    app.run(host='0.0.0.0', port=5000)

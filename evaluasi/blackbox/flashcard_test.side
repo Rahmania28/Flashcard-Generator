@@ -1,0 +1,153 @@
+{
+  "id": "aa112830-7d87-4a32-93ac-5e8b0c4d6fc3",
+  "version": "2.0",
+  "name": "Aplikasi-Mobile-Flashcard-Digital-untuk-Menghafal-Materi-Kuliah ",
+  "url": "https://animated-space-pancake-r4x4jj56qv55fjj6-5000.app.github.dev",
+  "tests": [{
+    "id": "bdf2e49a-5c9a-4a70-9c07-f3c73e74d3b0",
+    "name": "login_test",
+    "commands": [{
+      "id": "2f567a66-da3d-46fc-89be-9995364569d1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c682d1f1-f55c-4401-b6ec-e8d8f0420bbc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "784e5693-6903-4b32-8893-3e551a120348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "760ea09a-74a5-49fc-a1d0-07e4d7986837",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27b657ce-cf52-477f-a619-73e7a050fd77",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a710230051@student.ums.ac.id"
+    }, {
+      "id": "7715bbdf-979f-4b2e-86f1-59c6dd2f2a71",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae76a497-9c5b-450c-bfec-ad9d6521eb71",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c14cea45-06f1-400a-9d71-ce9682728b3a",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acdb21c5-27fa-4c3e-81b6-44798579b499",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88bcdaef-3300-465e-a9ab-eb5e4fd7858e",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd910366-e69e-4e04-9aa7-2944dad92dff",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb76952-cf64-4380-b227-41d40c2166de",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7e8e6cda-9573-4a99-989e-fe3c048c1695",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bdf2e49a-5c9a-4a70-9c07-f3c73e74d3b0"]
+  }],
+  "urls": ["https://animated-space-pancake-r4x4jj56qv55fjj6-5000.app.github.dev/"],
+  "plugins": []
+}
